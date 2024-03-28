@@ -195,7 +195,7 @@ function sql(){
 		echo -e "\n\t${rojo}${negrita}Contraseñas capturadas${sincolor}"
 		echo -e "\t${negrita}Se reiniciara cada minuto${sincolor}\n"
 		mysqldump -u root  -proot eviltwin wpa_keys > keys.txt
-		batcat keys.txt | grep -Ei "\('[^']+','[^']+'\)"
+		cat keys.txt | grep -Ei "\('[^']+','[^']+'\)"
 		 tput cnorm
 		sleep 20 && clear
 	done
