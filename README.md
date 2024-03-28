@@ -32,7 +32,7 @@ Si el nombre de la depencia esta en rojo significa que no esta instalada por lo 
 
 ### **Modo monitor**
 
-![monitor](/archivos.imagenes/monitor.png)
+![monitor](/archivos/imagenes/monitor.png)
 
 #Escribimos en nombre de nuestra **tarjeta de red disponible con modo monitor** para configurarla para el correcto funcionamiento.
 
@@ -92,11 +92,11 @@ Y la contraseña aparecera en pantalla
 
 Asi se veria la pantalla principal al ver movimiento dentro de la red y al recibir una contraseña de la victima.
 
-![final](/archivos/imagenes/kali3)
+![final](/archivos/imagenes/kali3.png)
 
 Por ultimo si precionamos "Control + C" en la terminal principal(si lo hacemos en las pequeñas se cerra el proceso como tal) se cerrara la herramienta pregutando si queremos guardar o no la base de datos.
 
-![base](/archivos/imagenes/del)
+![base](/archivos/imagenes/del.png)
 
 y finalizando con un bonito mensaje
 
