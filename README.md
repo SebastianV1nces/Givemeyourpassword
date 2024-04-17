@@ -32,7 +32,7 @@ Si el nombre de la depencia esta en rojo significa que no esta instalada por lo 
 
 ### **Eleccion de interfaces**
 
-![monitor](/archivos.imagenes/2NIC.png)
+![monitor](/archivos/imagenes/2NIC.png)
 
 #Escribimos en nombre de nuestra **tarjeta de red disponible con modo monitor** para configurarla para el correcto funcionamiento.
 1 para el el AP-Fake y otra para el ataque de desautenticacion
