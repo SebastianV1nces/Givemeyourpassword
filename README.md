@@ -30,14 +30,14 @@ Si el nombre de la depencia esta en rojo significa que no esta instalada por lo 
 
 ##     **Funcionamiento de la herramienta**
 
-### **Modo monitor**
+### **Eleccion de interfaces**
 
-![monitor](/archivos/imagenes/monitor.png)
+![monitor](/archivos.imagenes/2NIC.png)
 
 #Escribimos en nombre de nuestra **tarjeta de red disponible con modo monitor** para configurarla para el correcto funcionamiento.
+1 para el el AP-Fake y otra para el ataque de desautenticacion
 
 + mata todos los procesos de conexion
-+ inicia el modo monitor
 + verifica que todo este bien 
 
 ### **Hostapd**
@@ -46,9 +46,11 @@ Crea el punto de acceso wifi con el nombre  y el canal que eligas (el nombre de 
 
 ![hostpad](/archivos/imagenes/hostapd.png)
 
-#Si todo esta bien se abrira una terminal con **xterm** 
+#### **Red victima**
 
-![hostapd](/archivos/imagenes/hostapd2.png)
+Con la herramientas **airodump-ng** escanearemos las redes wifi cercanas para eleguir cual sera la victima y desautenticar los dispositivos de la red
+
+![device](/archivos/imagenes/AIRODUMP.png)
 
 ### **Servicio DHCP y servidor PHP**
 
@@ -59,6 +61,8 @@ El portal que ves en pantalla se lo debemos a "athanstan" el creador de este mis
 [github del proyecto][https://github.com/athanstan/EvilTwin_AP_CaptivePortal]
 
 el servidor web que captura la contraseña en texto plano y la guarda en la base de datos con mysql. 
+
+![hostpad](/archivos/imagenes/hostapd2.png)
 
 ![dnsmasq](/archivos/imagenes/dnsmasq.png)
 
@@ -74,7 +78,7 @@ Se captura un dumpeo de la base de datos con **mysqldump** y se lo imprime en pa
 
 #Si todo esta bien con los procesos anteriores tendra un un punto de acceso sin contraseña a la que las personas podran conectarse e ingresar a un **portal captivo** en el que con un panel phising podras o no obtenter la contraseña del wifi victima.
 
-![kali](/archivos/imagenes/kali.png)
+![kali](/archivos/imagenes/COMPLETA.png)
 
 ### **Punto de acceso**
 
@@ -92,11 +96,11 @@ Y la contraseña aparecera en pantalla
 
 Asi se veria la pantalla principal al ver movimiento dentro de la red y al recibir una contraseña de la victima.
 
-![final](/archivos/imagenes/kali3.png)
+![final](/archivos/imagenes/kali3)
 
 Por ultimo si precionamos "Control + C" en la terminal principal(si lo hacemos en las pequeñas se cerra el proceso como tal) se cerrara la herramienta pregutando si queremos guardar o no la base de datos.
 
-![base](/archivos/imagenes/del.png)
+![base](/archivos/imagenes/del)
 
 y finalizando con un bonito mensaje
 
@@ -104,6 +108,5 @@ y finalizando con un bonito mensaje
 
 #### Solo con fines educativos y uso en entornos controlados (usar con responsabilidad)😉
 
-##Nota:
-###Le hace falta un ataque Deauth para que sea efectivo. **EN PROCESO** parece que necesitara otra tarjeta de red :(
+
 
