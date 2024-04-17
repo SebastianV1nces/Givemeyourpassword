@@ -74,7 +74,7 @@ el servidor web que captura la contraseña en texto plano y la guarda en la base
 
 Se captura un dumpeo de la base de datos con **mysqldump** y se lo imprime en pantalla usando expresiones regulares para solo mostrar las contraseñas.
 
-![mysql](/archivos/imagenes/msyql.png)
+![mysql](/archivos/imagenes/mysql.png)
 
 #Si todo esta bien con los procesos anteriores tendra un un punto de acceso sin contraseña a la que las personas podran conectarse e ingresar a un **portal captivo** en el que con un panel phising podras o no obtenter la contraseña del wifi victima.
 
@@ -96,11 +96,11 @@ Y la contraseña aparecera en pantalla
 
 Asi se veria la pantalla principal al ver movimiento dentro de la red y al recibir una contraseña de la victima.
 
-![final](/archivos/imagenes/kali3)
+![final](/archivos/imagenes/kali3.png)
 
 Por ultimo si precionamos "Control + C" en la terminal principal(si lo hacemos en las pequeñas se cerra el proceso como tal) se cerrara la herramienta pregutando si queremos guardar o no la base de datos.
 
-![base](/archivos/imagenes/del)
+![base](/archivos/imagenes/del.png)
 
 y finalizando con un bonito mensaje
 
